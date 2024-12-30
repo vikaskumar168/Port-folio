@@ -1,6 +1,6 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
-import img from "../assets/profile-5cdb43f1.jpg";
+import img from "../assets/Profilephoto.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -20,23 +20,22 @@ const Introduction = () => {
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-8 leading-normal"
         >
-          Welcome To <span className="text-fuchsia-600">My Website</span>
+          Hi, I am <span className="text-fuchsia-600">Vikas Kumar</span>
         </h1>
-        <p data-aos="fade-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          aspernatur ad ullam? Architecto laboriosam voluptatibus enim modi.
-          Accusantium quod illo pariatur, nam mollitia eum neque minus ducimus
-          debitis commodi quas.
+        <p data-aos="fade-left" className=" text-[28px] font-normal">
+          I am final year Bacheor's of Technology student in computer science
+          engineering department at National Institute of Technology,
+          Patna(NITP). I am a passionate programmer and a web developer.
         </p>
         <div data-aos="fade-left" className="flex mt-8 gap-2">
           <a
-            href=""
+            href="https://github.com/vikaskumar168/"
             className="text-fuchsia-700 hover:text-fuchsia-500 rounded-full glow p-2"
           >
             <AiFillGithub className="text-[28px]" />
           </a>
           <a
-            href=""
+            href="https://www.linkedin.com/in/vikas-kumar-704049233/"
             className="text-fuchsia-700 hover:text-fuchsia-500 rounded-full glow p-2"
           >
             <FaLinkedin className="text-[28px]" />
