@@ -3,6 +3,7 @@ import Introduction from "../components/Introduction";
 import Skills from "../components/Skills";
 import Resume from "../components/Resume";
 import Contact from "../components/Contact";
+import Chatbot from "../components/Chatbot";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Skills />
       <Resume />
       <Contact />
+      <Chatbot />
     </>
   );
 };

@@ -1,3 +1,4 @@
+import Chatbot from "./components/Chatbot";
 import Contact from "./components/Contact";
 import Introduction from "./components/Introduction";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
         <Skills />
         <Resume />
         <Contact />
+        <Chatbot />
       </div>
     </>
   );
