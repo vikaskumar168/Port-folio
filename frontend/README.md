@@ -14,4 +14,4 @@ Currently, two official plugins are available:
 - run `npm install`
 - install dependencies
 - start front end `npm run dev`
-- start backend `npm start`
+
